@@ -16,13 +16,13 @@
   box-sizing: border-box;
 
 
+
 }
 .logo-img {
   width: 300px;
   height: auto;
   margin-bottom: 20px;
-  justify-content: left;
-  align-items: left;
+ 
 }
 
 .inter_bon{

@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-export default function Product_Catalog() {
+export default function ProductCatalog() {
   const nagative= useNavigate();  
   return (
     <div> product catalog

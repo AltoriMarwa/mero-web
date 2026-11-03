@@ -4,7 +4,7 @@ import HomePage from './pages/HomePage';
 import Orders from './pages/Orders';
 import ShopTemp from './pages/ShopTemp';
 import WareHouse from './pages/WareHouse';
-import Product_Catalog from './pages/Product_Catalog';
+import ProductCatalog from './pages/ProductCatalog';
 import SignPage from './pages/SignPage';
 function App() {
 
@@ -15,7 +15,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path='/Orders' element={<Orders/>} />
         <Route path="/WareHouse" element={<WareHouse/>}/>
-        <Route path='/Prodect_Catalog' element={<Product_Catalog />}/>
+        <Route path='/ProdectCatalog' element={<ProductCatalog />}/>
         <Route path='/ShopTemp' element={<ShopTemp/>}/>
         <Route path='/SignPage' element={<SignPage/>}/>
       </Routes>

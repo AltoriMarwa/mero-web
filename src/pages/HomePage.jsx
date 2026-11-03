@@ -20,7 +20,7 @@ export default function Housepage() {
        <h1 class="font-display text-4xl font-bold" data-tsd-source="/src/routes/index.tsx:79:9">הזמנת סחורה מהמחסן המרכזי</h1>
        <p class="mt-2 text-muted-foreground" data-tsd-source="/src/routes/index.tsx:80:9">אתר להזמנת חומרי בניין </p>
        <div class="mt-6 flex gap-2 border-b" data-tsd-source="/src/routes/index.tsx:83:9">
-       <button   onClick={()=> navigate("/Prodect_Catalog")} >קטלוג מוצרים</button>
+       <button   onClick={()=> navigate("/ProdectCatalog")} >קטלוג מוצרים</button>
        <button  onClick={()=>navigate("/Orders")}        >ההזמנות שלי </button>
        <button  onClick={()=>navigate("/SignPage")}        >הרשמה </button>
        </div>
